@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="Rodrigo Martins e Lúcia Sousa" content="">
+
+  <title>Astronautas</title>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+  <script type="text/javascript" src="js/graflinhas2.js"></script>
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+
+  <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+  <script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script type="text/javascript" src="https://code.highcharts.com/modules/export-data.js"></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Exploração Espacial</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Pagina Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Acerca</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/space-explorer.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>O que é ser um Astronauta</h1>
+            <h2 class="subheading">Os primeiros astronautas</h2>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Um astronauta é uma pessoa treinada para uma viagem espacial, seja para comandar, pilotar ou servir como membro da tripulação de uma nave espacial. Atualmente, segundo os critérios de seleção das agências espaciais que possuem programas
+            tripulados, é necessário que o candidato tenha tido formação em engenharias, ciências exatas, biológicas, ser professor de nível básico na área de exatas ou ser um piloto de testes.</p>
+
+          <p>Entretanto, com a crescente expansão da iniciativa
+            privada no setor espacial, na forma de empreendimentos como o turismo espacial e mesmo na forma de esforços de exploração de outros corpos celestes, é provável que nas próximas décadas os critérios de seleção de astronautas para
+            empreendimentos governamentais e privados no setor espacial sofram alterações.</p>
+
+          <h2 class="section-heading">Os primeiros Astronautas</h2>
+
+          <p>Os primeiros astronautas americanos foram selecionados em 1959, antes do início das operações de voos espaciais tripulados. A NASA solicitou aos serviços militares que fornecessem uma lista de pessoal que atendesse a qualificações
+            específicas. </p>
+
+          <p>Depois de uma rigorosa seleção, a NASA anunciou a seleção de sete homens, todos pilotos, como os primeiros astronautas americanos. Atualmente dos milhares de pedidos recebidos, apenas alguns são escolhidos para o programa
+            intensivo de treino para candidatos a astronautas.</p>
+          <p>Mais de 400 pessoas tiveram a profissão de astronautas, a maior parte dos astronautas são dos Estados Unidos, mas há astronautas em todo o mundo, como é possível observar no gráfico a baixo.</p>
+          <p>
+            <center>
+
+              <div id="graflinhas2" style="min-width: 300px; height: 400px; margin: 0 auto">
+
+                <button class="btn btn-primary" onclick="desenhaGrafico()">
+                  Gráfico dos Astronautas
+                </button>
+              </div>
+
+            </center>
+            <p>
+              <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+
+              <p> O mais recente grupo de candidatos a astronauta da NASA incluem professores, médicos, cientistas e engenheiros. Incluindo o “Original Seven”, apenas 338 astronautas foram selecionados
+                até o momento.</p>
+
+
+              <center>
+                <img class="img-fluid" src="img/seven.jpg">
+              </center>
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/universidadedeaveiro/">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/rodrigo740">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/luciasousa">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
